@@ -18,7 +18,6 @@ function Header() {
         zIndex: "100",
       }}
     >
-      {/* Container for header content */}
       <div
         className="container d-flex justify-content-between align-items-center"
         style={{ backgroundColor: "#ebd9d1" }}
