@@ -24,7 +24,7 @@ function AboutMe() {
             journey in web development began with a curiosity-driven exploration
             of HTML, CSS, and JavaScript, which eventually evolved into a
             deep-seated love for crafting robust, user-centric web applications.
-            I recently grraduated from a ful stack bootcamp at the University of
+            I recently graduated from a ful stack bootcamp at the University of
             Toronto, and am excited to continue my journey as a developer. I
             have honed my skills in various programming languages, frameworks,
             and tools, allowing me to create seamless digital experiences that
