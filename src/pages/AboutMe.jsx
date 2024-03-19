@@ -7,7 +7,7 @@ function AboutMe() {
         <h1 className="text-center text-black mb-4">About me</h1>
         <div className="col-md-4 d-flex align-item-center">
           <img
-            src="./IMG_0546.jpg"
+            src="../assets/mypic.jpg"
             alt="Profile picture"
             className=" mr-3 mt-3 mb-5 rounded-circle"
             width="350px"
