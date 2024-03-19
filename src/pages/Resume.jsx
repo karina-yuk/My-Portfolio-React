@@ -44,7 +44,7 @@ const Resume = () => {
           </li>
         </ul>
         {/* Link to download the resume */}
-        <h2 className="container text-center">
+        <h2 className="container text-center p-4">
           <a
             href="https://drive.google.com/file/d/1U6d6GxKtU8heN9m2Dw6yfNVPXSNbZt88/view?usp=drive_link"
             style={{
