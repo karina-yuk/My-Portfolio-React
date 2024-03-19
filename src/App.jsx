@@ -9,6 +9,7 @@ import Header from "./components/Header";
 import AboutMe from "./pages/AboutMe";
 import Portfolio from "./pages/Portfolio";
 import Contact from "./pages/Contact";
+import Resume from "./pages/Resume";
 import Footer from "./components/Footer";
 
 // Define the main App component
@@ -30,6 +31,9 @@ function App() {
 
         {/* Route for the Contact page */}
         <Route path="/contact" element={<Contact />} />
+        
+        {/* Route for the Resume page*/}
+        <Route path="/resume" element={<Resume />} />
       </Routes>
 
       {/* Render the Footer component */}
