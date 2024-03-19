@@ -18,6 +18,9 @@ This application is my portfolio using react. I created this portfolio to showca
 
 ## Reference
 
+- [React](https://reactjs.org/)
+- [React-Bootstrap](https://react-bootstrap.github.io/)
+- [React-Icons](https://react-icons.github.io/react-icons/)
 
 ## License
 
