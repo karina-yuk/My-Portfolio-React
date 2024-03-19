@@ -4,7 +4,7 @@ function AboutMe() {
   return (
     <section className="container py-4 mb-4">
       <div className="row m-auto">
-        <h1 className="mb-4 text-center">About me</h1>
+        <h1 className="text-center text-black mb-4">About me</h1>
         <div className="col-md-4 d-flex align-item-center">
           <img
             src="./IMG_0546.jpg"
