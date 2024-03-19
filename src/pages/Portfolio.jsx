@@ -6,44 +6,37 @@ import ProjectCard from "../components/Projects";
 function Portfolio() {
   const projects = [
     {
-      title: "Jate-PWA",
-      description: "Text Editor",
+      title: "Text Editor",
       imageUrl: "",
       projectUrl: "https://whispering-sierra-93502-a7f21e01e20a.herokuapp.com",
       githubUrl: "https://github.com/karina-yuk/Jate-PWA",
     },
     {
       title: "Coding-Quiz",
-      description: "Timed JS coding quiz",
       imageUrl: "",
       projectUrl: "https://karina-yuk.github.io/Coding-Quiz/",
       githubUrl: "https://github.com/karina-yuk/Coding-Quiz",
     },
     {
-      title: "Down To Fitness",
-      description: "Workout buddy matching app",
+      title: "Workout Buddy Match",
       imageUrl: "",
-      projectUrl:
-        "https://glacial-bastion-24615-b6553ef60001.herokuapp.com",
+      projectUrl: "https://glacial-bastion-24615-b6553ef60001.herokuapp.com",
       githubUrl: "https://github.com/karina-yuk/WorkoutBuddy-Match",
-    },    
+    },
     {
       title: "Password Generator",
-      description: "Password generator app",
       imageUrl: "",
       projectUrl: "https://karina-yuk.github.io/Password-Generator/",
       githubUrl: "https://github.com/karina-yuk/Password-Generator",
     },
     {
       title: "Weather Dashboard",
-      description: "Real-time weather dashboard",
       imageUrl: "",
       projectUrl: "https://karina-yuk.github.io/Weather-status-board/",
       githubUrl: "https://github.com/karina-yuk/Weather-status-board",
     },
     {
       title: "Work Day Scheduler",
-      description: "Scheduler to plan your day",
       imageUrl: "",
       projectUrl: "https://karina-yuk.github.io/Karina-work-scheduler/",
       githubUrl: "https://github.com/karina-yuk/Karina-work-scheduler",
