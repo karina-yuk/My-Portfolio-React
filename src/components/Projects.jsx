@@ -7,14 +7,15 @@ function Projects({ title, imageUrl, projectUrl, githubUrl }) {
   return (
     <div
       className="card text-white flex-fill m-2 shadow-sm rounded p-2 w-100"
-      style={{ backgroundColor: "#ebd9d1" }}
+      style={{ backgroundColor: "#d3c4be" }}
     >
       <h3
         className="text-black w-100 rounded-pill text-center bg-opacity-75 py-2"
-        style={{ backgroundColor: "#ebd9d1" }}
+        style={{ backgroundColor: "#d3c4be" }}
       >
         {title}
       </h3>
+
       <a href={projectUrl} target="_blank" rel="noopener noreferrer">
         <div className="card-body p-0">
           <img src={imageUrl} className="card-img" alt={title} />
