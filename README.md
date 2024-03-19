@@ -9,12 +9,20 @@ This application is my portfolio using react. I created this portfolio to showca
 ## Table of Contents
 
 - [Deployment](#deployment)
+- [Sample Application](#sample-application)
 - [Reference](#reference)
 - [License](#license)
 - [Contact](#contact)
 
 ## Deployment
 
+The React Portfolio is deployed on Netlify. You can access the application [here](https://superlative-stardust-1451f9.netlify.app).
+
+## Sample Application
+
+<img src="./public/assets/sampleapplication1.PNG" alt="Aboutme" width="50%">
+
+<img src="./public/assets/sampleapplication2.PNG" alt="Aboutme" width="50%">
 
 ## Reference
 
