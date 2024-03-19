@@ -20,9 +20,9 @@ The React Portfolio is deployed on Netlify. You can access the application [here
 
 ## Sample Application
 
-<img src="./public/assets/sampleapplication1.PNG" alt="Aboutme" width="50%">
+<img src="./public/assets/sampleapplication1.PNG" alt="Aboutme" width="100%">
 
-<img src="./public/assets/sampleapplication2.PNG" alt="Aboutme" width="50%">
+<img src="./public/assets/sampleapplication2.PNG" alt="Aboutme" width="100%">
 
 ## Reference
 
