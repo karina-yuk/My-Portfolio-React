@@ -7,37 +7,37 @@ function Portfolio() {
   const projects = [
     {
       title: "Text Editor",
-      imageUrl: "",
+      imageUrl: "../assets/jate.PNG",
       projectUrl: "https://whispering-sierra-93502-a7f21e01e20a.herokuapp.com",
       githubUrl: "https://github.com/karina-yuk/Jate-PWA",
     },
     {
       title: "Coding-Quiz",
-      imageUrl: "",
+      imageUrl: "../assets/codingquiz.PNG",
       projectUrl: "https://karina-yuk.github.io/Coding-Quiz/",
       githubUrl: "https://github.com/karina-yuk/Coding-Quiz",
     },
     {
       title: "Workout Buddy Match",
-      imageUrl: "",
+      imageUrl: "../assets/workoutbuddymatch.png",
       projectUrl: "https://glacial-bastion-24615-b6553ef60001.herokuapp.com",
       githubUrl: "https://github.com/karina-yuk/WorkoutBuddy-Match",
     },
     {
       title: "Password Generator",
-      imageUrl: "",
+      imageUrl: "../assets/passwordgenerator.PNG",
       projectUrl: "https://karina-yuk.github.io/Password-Generator/",
       githubUrl: "https://github.com/karina-yuk/Password-Generator",
     },
     {
       title: "Weather Dashboard",
-      imageUrl: "",
+      imageUrl: "../assets/weatherdashboard.PNG",
       projectUrl: "https://karina-yuk.github.io/Weather-status-board/",
       githubUrl: "https://github.com/karina-yuk/Weather-status-board",
     },
     {
       title: "Work Day Scheduler",
-      imageUrl: "",
+      imageUrl: "../assets/workdayscheduler.PNG",
       projectUrl: "https://karina-yuk.github.io/Karina-work-scheduler/",
       githubUrl: "https://github.com/karina-yuk/Karina-work-scheduler",
     },
