@@ -1,0 +1,77 @@
+/* Apply a background color to all elements within the document */
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ebd9d1;
+}
+
+/* Styling for h1 elements with a specific text decoration and background color */
+h1 {
+  text-decoration: #000000;
+  background-color: #ebd9d1;
+}
+
+/* Styling for h3 elements with no text decoration */
+h3 {
+  text-decoration: none;
+}
+/* Set a minimum height for all elements with the class 'card' */
+.card {
+  min-height: 200px;
+  /* Set a minimum height of 200 pixels for elements with the class 'card' */
+}
+
+/* Styling for elements with the class 'card-img' */
+.card-img {
+  position: relative;
+}
+
+/* Styling for a section with the class 'container' */
+.container {
+  background-color: #ebd9d1;
+  color: #1b1f22;
+}
+
+/* Styling for links within the footer, setting font size for icons */
+footer a {
+  font-size: 35px;
+}
+
+/* Styling for icons within the footer, setting padding */
+footer i {
+  padding: 1rem;
+}
+
+/* Styling for paragraphs, setting font size and text alignment */
+p {
+  font-size: x-large;
+  text-align: center;
+
+}
+
+/* Add this CSS to ensure fixed height for the images and equal height for flex items in the same row */
+.card {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-body {
+  flex: 1;
+}
+
+.card-img {
+  max-height: 300px;
+  object-fit: cover;
+}
+
+/* Styling for the active link in the navbar */
+.navbar-nav .nav-link.active {
+  background-color: #d3c4be;
+  border-radius: 5px;
+  color: #000000;
+}
+
+/* Styling for the line divider between the navbar and the page content */
+.content-divider {
+  border-top: 3px solid #c4beb5; 
+  margin-top: 10px; 
+}
