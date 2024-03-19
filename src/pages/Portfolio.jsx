@@ -1,0 +1,71 @@
+// Import the React library and the ProjectCard component from '../components'
+import React from "react";
+import ProjectCard from "../components/Projects";
+
+// Define the Portfolio component
+function Portfolio() {
+  const projects = [
+    {
+      title: "Jate-PWA",
+      description: "Text Editor",
+      imageUrl: "",
+      projectUrl: "https://whispering-sierra-93502-a7f21e01e20a.herokuapp.com",
+      githubUrl: "https://github.com/karina-yuk/Jate-PWA",
+    },
+    {
+      title: "Coding-Quiz",
+      description: "Timed JS coding quiz",
+      imageUrl: "",
+      projectUrl: "https://karina-yuk.github.io/Coding-Quiz/",
+      githubUrl: "https://github.com/karina-yuk/Coding-Quiz",
+    },
+    {
+      title: "Down To Fitness",
+      description: "Workout buddy matching app",
+      imageUrl: "",
+      projectUrl:
+        "https://glacial-bastion-24615-b6553ef60001.herokuapp.com",
+      githubUrl: "https://github.com/karina-yuk/WorkoutBuddy-Match",
+    },    
+    {
+      title: "Password Generator",
+      description: "Password generator app",
+      imageUrl: "",
+      projectUrl: "https://karina-yuk.github.io/Password-Generator/",
+      githubUrl: "https://github.com/karina-yuk/Password-Generator",
+    },
+    {
+      title: "Weather Dashboard",
+      description: "Real-time weather dashboard",
+      imageUrl: "",
+      projectUrl: "https://karina-yuk.github.io/Weather-status-board/",
+      githubUrl: "https://github.com/karina-yuk/Weather-status-board",
+    },
+    {
+      title: "Work Day Scheduler",
+      description: "Scheduler to plan your day",
+      imageUrl: "",
+      projectUrl: "https://karina-yuk.github.io/Karina-work-scheduler/",
+      githubUrl: "https://github.com/karina-yuk/Karina-work-scheduler",
+    },
+  ];
+
+  // Return JSX for the Portfolio section
+  return (
+    <div className="container py-4 mb-4">
+      <h1 className="text-center text-black mb-4">Portfolio</h1>
+
+      {/* Row for displaying project cards */}
+      <div className="row g-6">
+        {projects.map((project, index) => (
+          <div className="col-md-6 d-flex" key={index}>
+            <ProjectCard {...project} />
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+}
+
+// Export the Portfolio component as the default export
+export default Portfolio;
